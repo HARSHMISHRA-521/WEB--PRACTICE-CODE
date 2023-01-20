@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+
+        }
+
+        .card {
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: aquamarine;
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+            box-shadow: 10px 13px deepskyblue;
+            box-shadow: -10px -13px deepskyblue;
+            box-shadow: -10px -13px 10px deepskyblue;
+            box-shadow: -10px -13px 10px 5px rgb(9, 83, 83);
+            box-shadow: inset 3px 15px red;
+            box-shadow:  3px 5px red,4px 6px yellow;
+
+
+        }
+        .card h2{
+            text-shadow: 2px 4px white;
+            text-shadow: 2px 4px 2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is Python course.</h2>
+            <p>I have started this python course which does not mean that we will stop this course .We will continue this course to completion.lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati voluptatum eius mollitia facere
+                nesciunt ducimus quo debitis quas. Mollitia ad reprehenderit, vitae, numquam corporis doloremque
+                voluptate non quam autem iusto rem odit libero. Mollitia!
+            </p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is html course.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, ipsa! Quasi eveniet earum maiores
+                dicta laboriosam perspiciatis iusto fugiat enim, aliquam, dolorum est fuga placeat ab. Repudiandae
+                maiores in, a labore veritatis deleniti minima!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit distinctio et labore officia? Ipsam amet
+                vel illo officia sunt esse modi, voluptates natus quidem commodi! Illo velit ex ipsam minus quas ut
+                eligendi assumenda.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

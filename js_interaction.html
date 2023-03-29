@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using alert ,confirm and promt</title>
+</head>
+<body>
+    <div class="container">
+        This is a page.
+    </div>
+
+    <script>
+        // alert in in-browser javascript - does not return anything
+        alert("THIS IS HARSH MISHRA");
+
+        let name =prompt("What is your name","Guest");
+        console.log("Welcome " +name);
+
+        let deletepost = confirm("Do you really want to delete this post ?");
+        
+        if(deletepost){
+            console.log("Your post has been deleted sucessfully");
+        }
+        else{
+            console.log(deletepost);
+        }
+        console.log(deletepost);
+
+
+    </script>
+    
+</body>
+</html>

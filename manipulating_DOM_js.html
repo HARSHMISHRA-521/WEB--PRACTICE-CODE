@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulating DOM</title>
+</head>
+<body>
+    <div id = "main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>Email</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another class
+    </div>
+    <script>
+         let main = document.getElementById(`main`)
+         console.log(main);
+         let nav = document.getElementById(`nav`)
+         console.log(nav);
+
+         let container =document.getElementsByClassName('container')
+         console.log(container)
+
+        //  let sel = document.querySelector('.container');
+        //  console.log("Selector returns",sel);
+
+         let sel = document.querySelectorAll('#nav>li');
+         console.log("Selector returns",sel);
+    </script>
+</body>
+</html>

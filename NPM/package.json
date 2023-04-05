@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is Harsh Mishra",
+  "main": "NPM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Awesome!"
+  ],
+  "author": "Harsh", 
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "express": "^4.18.2",
+    "slugify": "~1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": ">1.0.22" 
+  }
+}
+

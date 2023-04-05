@@ -1,0 +1,14 @@
+{
+  "name": "hmc",
+  "version": "1.0.0",
+  "description": "This is the package created while studying and exploring node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Raja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
